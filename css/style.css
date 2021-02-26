@@ -1,5 +1,5 @@
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 h1{
     color:peru;
     /* font-size: 5.653rem; */
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 h2{
@@ -37,7 +37,7 @@ h6{
 
 }
 
-.container {
+.general-container {
     display: flex; /* or inline-flex */
     
   }
@@ -46,12 +46,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0px 20px 0px 20px;
+    content:none;
 }
 
 a:link, a:visited{
     /* background-color:darkblue; */
     text-decoration: none;
-    color: pink;
+    color: #F9D1D1;
     padding: 10px;
 }
 
@@ -65,7 +66,7 @@ a:active{
 }
 
 a.icon:link, a.icon:visited {
-    background-color: pink;
+    background-color: #F9D1D1;
     color:ghostwhite;
     border-radius: 50%;
 
@@ -73,24 +74,29 @@ a.icon:link, a.icon:visited {
 
 #hero{
     justify-content: space-between;
+    height: 400px;
 }
 
 a.icon:hover {
-    background-color: pink;
+    background-color: #F9D1D1;
     color:ghostwhite;
     border-radius: 50%;
 }
 
 .subscribe{
     
-    background-color: pink;
+    background-color: #F9D1D1;
     border-radius: 10%;
-    padding: 0px 20px 10px 20px;
-    max-height: 350px;
+    padding: 10px 20px 10px 20px;
+    max-height: 325px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
 }
 
 .logo{
-    color:pink;
+    color:#F9D1D1;
 }
 
 .button{
@@ -110,7 +116,7 @@ a.icon:hover {
     width:28px;
     height: 28px;
     border-radius: 50%;
-    background-color: pink;
+    background-color: #F9D1D1;
 }
 .carrusel-desactive{
     width:28px;
@@ -125,11 +131,25 @@ a.icon:hover {
 
 
 .image{
-    height: 400px;
+    height: 100px;
+}
+
+input{
+    background: #FFFFFF;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.459);
+    height: 150%;
+    
 }
 
 .number-card{
-    font-size: 15rem;
+    font-size: 20rem;
+    
+    font-family:Playball;
+    margin: 0px 25px 0px 25px;
+    color:#F9D1D1;
 }
 
 .card{
@@ -147,7 +167,15 @@ a.icon:hover {
 }
 
 .columns{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     
+}
+
+#name, #second-name, #email{
+    margin-bottom: 10px;
+
 }
 
 
