@@ -1,0 +1,173 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin:0 auto;
+    max-width: 1280px;
+}
+
+h1{
+    color:peru;
+    /* font-size: 5.653rem; */
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 3.998rem;
+}
+
+h3 {
+    
+    font-size: 2.827rem
+}
+
+h4 {
+    
+    font-size: 1.999rem;
+    
+}
+
+h5{
+    font-size: 1.414rem;
+}
+
+h6{
+    font-size: 1rem;
+
+}
+
+.container {
+    display: flex; /* or inline-flex */
+    
+  }
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}
+
+a:link, a:visited{
+    /* background-color:darkblue; */
+    text-decoration: none;
+    color: pink;
+    padding: 10px;
+}
+
+a:hover{
+    /* background-color: darkcyan; */
+    text-decoration: underline 2px darkgoldenrod;
+}
+
+a:active{
+    background-color: orange;
+}
+
+a.icon:link, a.icon:visited {
+    background-color: pink;
+    color:ghostwhite;
+    border-radius: 50%;
+
+}
+
+#hero{
+    justify-content: space-between;
+}
+
+a.icon:hover {
+    background-color: pink;
+    color:ghostwhite;
+    border-radius: 50%;
+}
+
+.subscribe{
+    
+    background-color: pink;
+    border-radius: 10%;
+    padding: 0px 20px 10px 20px;
+    max-height: 350px;
+}
+
+.logo{
+    color:pink;
+}
+
+.button{
+    background-color: rgb(192, 253, 251);
+    color:black;
+    border-radius: 50px;
+    border-width: 0.5px;
+    padding: 5px 10px 5px 10px;
+}
+.info{
+    margin-right: 30px;
+    max-width: 50%;
+}
+
+
+.carrusel-active{
+    width:28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: pink;
+}
+.carrusel-desactive{
+    width:28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: rgb(192, 253, 251);
+}
+
+#carrusel{
+    margin-top: 25px;
+}
+
+
+.image{
+    height: 400px;
+}
+
+.number-card{
+    font-size: 15rem;
+}
+
+.card{
+    display: flex; /* or inline-flex */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.text-description{
+    width: 40%;
+}
+
+#card2{
+    justify-content: flex-end;
+}
+
+.columns{
+    
+}
+
+
+/* TABLET */
+@media only screen and (min-width:600px) and (max-width:767px){
+    
+
+}
+
+
+/* ---------------------------------------------------- */
+/* DESKTOP */
+@media only screen and (min-width: 768px) {
+   
+}
+
+/* --------------------- */
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+    #hero{
+        flex-direction: column;
+    }
+}

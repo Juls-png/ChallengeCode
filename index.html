@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Code Challenge</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bff7ea3e36.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Start header -->
+    <header class="container">
+        <!-- Logo -->
+        <div>
+            <h3 class="logo">·SIMPLE</h3>
+        </div>
+        <!-- Navagation -->
+        <div>
+            <nav>
+                <a href="">
+                    About us
+                </a>
+                <a class="icon">
+                    <i class="far fa-user"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <!-- Hero -->
+    <section class="container" id="hero">
+        <!-- Start description -->
+        <div class="info">
+            <h1>Get dressed in our different styles</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales congue faucibus varius egestas maecenas. Faucibus at in mi ut egestas. Congue volutpat dui donec sit ultrices lacus, risus porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales congue faucibus varius egestas maecenas.
+            </p>
+        </div>
+        <!-- Start call to action -->
+        <div class="subscribe">
+            <h4>
+                Subscribe to know the last news
+            </h4>
+            <!-- Inputs -->
+            <div>
+                <label for="name">First name*</label>
+                <br></br>
+                <input type="text" id="name">
+                <br></br>
+                <label for="second-name">Last name*</label>
+                <input type="text" id="second-name">
+                <br></br>
+                <label for="email">Email*</label>
+                <input type="email" id="email">
+                <br></br>
+                <input class="button" type="submit" value="Send">
+            </div>
+        </div>
+        
+    </section>
+    <!-- Carrusel -->
+    <div class="container" id="carrusel">
+       
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="img/hannah-morgan-ycVFts5Ma4s-unsplash.jpg" alt="Los Angeles" style="width:100%;">
+            </div>
+      
+            <div class="item">
+              <img src="img/hannah-morgan-ycVFts5Ma4s-unsplash.jpg" alt="Chicago" style="width:100%;">
+            </div>
+          
+            <div class="item">
+              <img src="img/hannah-morgan-ycVFts5Ma4s-unsplash.jpg" alt="New york" style="width:100%;">
+            </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    <!-- Cards -->
+    <section>
+        <!-- card 1 -->
+        <div class="card">
+            <!-- image -->
+            <div>
+                <img class="image" src="/img/Character.png">
+            </div>
+            <!-- number -->
+            <div>
+                <h1 class="number-card">1</h1>
+            </div>
+            <!-- Text -->
+            <div class="text-description">
+                <!-- TITTLE -->
+                <h2>
+                    Very important Point
+                </h2>
+                <!-- DESCRIPTION -->
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales congue faucibus varius egestas maecenas. Faucibus at in mi ut egestas. 
+                </p>
+            </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card" id="card2">
+            <!-- number -->
+            <div>
+                <h1 class="number-card">2</h1>
+            </div>
+            
+            <!-- Text -->
+            <div class="text-description">
+                <!-- TITTLE -->
+                <h2>
+                    Another key point                </h2>
+                <!-- DESCRIPTION -->
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales congue faucibus varius egestas maecenas. Faucibus at in mi ut egestas. 
+                </p>
+            </div>
+            <!-- image -->
+            <div>
+                <img class="image" src="/img/Character2.png">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <div>
+                <h3>Get started</h3>
+                <div>
+                    <p>Sign up</p>
+                    <p>Subscribe</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+</html>
