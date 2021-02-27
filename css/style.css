@@ -75,6 +75,7 @@ a.icon:link, a.icon:visited {
 #hero{
     justify-content: space-between;
     height: 400px;
+    padding: 0px 20px 0px 20px;
 }
 
 a.icon:hover {
@@ -131,7 +132,7 @@ a.icon:hover {
 
 
 .image{
-    height: 100px;
+    height: 300px;
 }
 
 input{
@@ -176,6 +177,17 @@ input{
 #name, #second-name, #email{
     margin-bottom: 10px;
 
+}
+.container-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-between;
 }
 
 
