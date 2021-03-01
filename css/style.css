@@ -144,6 +144,9 @@ input{
     height: 150%;
     
 }
+input:focus{
+    background-color: black;
+}
 
 .number-card{
     font-size: 20rem;
